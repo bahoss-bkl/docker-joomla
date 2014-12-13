@@ -1,7 +1,5 @@
 FROM php:5.4-apache
 
-ENV JOOMLA_LIVESITE
-
 ADD run-joomla.sh /usr/local/bin/
 RUN chmod a+x /usr/local/bin/run-joomla.sh
 
